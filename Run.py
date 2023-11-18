@@ -8,7 +8,7 @@ os.system('xdg-open https://chat.whatsapp.com/GsR7eXGFlrjIfQiBcc8dc7')
 os.system("clear")
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from Followers import HAMI
-    HAMI()
+    from Followers import menu
+    menu()
 elif bit == '32bit':
     print("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
